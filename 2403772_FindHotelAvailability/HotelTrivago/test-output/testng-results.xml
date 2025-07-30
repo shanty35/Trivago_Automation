@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-04T16:36:15 IST" name="Suite" finished-at="2025-07-04T16:38:05 IST" duration-ms="110434">
+    <groups>
+    </groups>
+    <test started-at="2025-07-04T16:36:15 IST" name="ChromeTest" finished-at="2025-07-04T16:36:56 IST" duration-ms="41583">
+      <class name="com.test.testScenario.HotelAvailabilityTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.test.testScenario.HotelAvailabilityTest@fbd1f6]" started-at="2025-07-04T16:36:15 IST" name="setup" finished-at="2025-07-04T16:36:23 IST" duration-ms="7889" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="stratReport()[pri:0, instance:com.test.testScenario.HotelAvailabilityTest@fbd1f6]" started-at="2025-07-04T16:36:23 IST" name="stratReport" finished-at="2025-07-04T16:36:23 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stratReport -->
+        <test-method signature="cityInitialize(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.test.testScenario.HotelAvailabilityTest@fbd1f6]" started-at="2025-07-04T16:36:24 IST" name="cityInitialize" data-provider="dp" finished-at="2025-07-04T16:36:27 IST" duration-ms="3482" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2025-07-20]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2025-07-21]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cityInitialize -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.testScenario.HotelAvailabilityTest@fbd1f6]" started-at="2025-07-04T16:36:27 IST" name="getResult" finished-at="2025-07-04T16:36:27 IST" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cityInitialize status=SUCCESS method=HotelAvailabilityTest.cityInitialize(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.test.testScenario.HotelAvailabilityTest@fbd1f6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="screnShot()[pri:0, instance:com.test.testScenario.HotelAvailabilityTest@fbd1f6]" started-at="2025-07-04T16:36:27 IST" name="screnShot" finished-at="2025-07-04T16:36:27 IST" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screnShot -->
+        <test-method signature="result()[pri:2, instance:com.test.testScenario.HotelAvailabilityTest@fbd1f6]" started-at="2025-07-04T16:36:27 IST" name="result" finished-at="2025-07-04T16:36:52 IST" duration-ms="24299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- result -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.testScenario.HotelAvailabilityTest@fbd1f6]" started-at="2025-07-04T16:36:52 IST" name="getResult" finished-at="2025-07-04T16:36:52 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=result status=SUCCESS method=HotelAvailabilityTest.result()[pri:2, instance:com.test.testScenario.HotelAvailabilityTest@fbd1f6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="screnShot()[pri:0, instance:com.test.testScenario.HotelAvailabilityTest@fbd1f6]" started-at="2025-07-04T16:36:52 IST" name="screnShot" finished-at="2025-07-04T16:36:52 IST" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screnShot -->
+        <test-method is-config="true" signature="erase()[pri:0, instance:com.test.testScenario.HotelAvailabilityTest@fbd1f6]" started-at="2025-07-04T16:36:52 IST" name="erase" finished-at="2025-07-04T16:36:56 IST" duration-ms="3685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- erase -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.testScenario.HotelAvailabilityTest@fbd1f6]" started-at="2025-07-04T16:36:56 IST" name="tearDown" finished-at="2025-07-04T16:36:56 IST" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="writeDataIntoExcel()[pri:0, instance:com.test.testScenario.HotelAvailabilityTest@fbd1f6]" started-at="2025-07-04T16:36:56 IST" name="writeDataIntoExcel" finished-at="2025-07-04T16:36:56 IST" duration-ms="455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeDataIntoExcel -->
+      </class> <!-- com.test.testScenario.HotelAvailabilityTest -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2025-07-04T16:36:56 IST" name="EdgeTest" finished-at="2025-07-04T16:38:05 IST" duration-ms="68819">
+      <class name="com.test.testScenario.HotelAvailabilityTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.test.testScenario.HotelAvailabilityTest@4c39bec8]" started-at="2025-07-04T16:36:56 IST" name="setup" finished-at="2025-07-04T16:37:04 IST" duration-ms="7769" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="stratReport()[pri:0, instance:com.test.testScenario.HotelAvailabilityTest@4c39bec8]" started-at="2025-07-04T16:37:04 IST" name="stratReport" finished-at="2025-07-04T16:37:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stratReport -->
+        <test-method signature="cityInitialize(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.test.testScenario.HotelAvailabilityTest@4c39bec8]" started-at="2025-07-04T16:37:04 IST" name="cityInitialize" data-provider="dp" finished-at="2025-07-04T16:37:06 IST" duration-ms="1807" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2025-07-20]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2025-07-21]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cityInitialize -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.testScenario.HotelAvailabilityTest@4c39bec8]" started-at="2025-07-04T16:37:06 IST" name="getResult" finished-at="2025-07-04T16:37:06 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cityInitialize status=SUCCESS method=HotelAvailabilityTest.cityInitialize(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.test.testScenario.HotelAvailabilityTest@4c39bec8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="screnShot()[pri:0, instance:com.test.testScenario.HotelAvailabilityTest@4c39bec8]" started-at="2025-07-04T16:37:06 IST" name="screnShot" finished-at="2025-07-04T16:37:06 IST" duration-ms="429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screnShot -->
+        <test-method signature="result()[pri:2, instance:com.test.testScenario.HotelAvailabilityTest@4c39bec8]" started-at="2025-07-04T16:37:06 IST" name="result" finished-at="2025-07-04T16:38:00 IST" duration-ms="53126" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[@name='guest_rating_filters']' (tried for 20 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[@name='guest_rating_filters']' (tried for 20 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.test.testObjects.FilterResult.guestRating(FilterResult.java:59)
+at com.test.testScenario.HotelAvailabilityTest.result(HotelAvailabilityTest.java:73)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@name='guest_rating_filters']"}
+  (Session info: MicrosoftEdge=138.0.3351.65)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [3fca41d651b9b2741fd72c6d97f103be, findElement {using=xpath, value=//button[@name='guest_rating_filters']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 138.0.3351.65, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:64962}, msedge: {msedgedriverVersion: 138.0.3351.65 (81e3782c3ab4..., userDataDir: C:\Users\2403772\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64962/devtoo..., se:cdpVersion: 138.0.3351.65, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3fca41d651b9b2741fd72c6d97f103be
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy16.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+... 28 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- result -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.testScenario.HotelAvailabilityTest@4c39bec8]" started-at="2025-07-04T16:38:00 IST" name="getResult" finished-at="2025-07-04T16:38:00 IST" duration-ms="522" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=result status=FAILURE method=HotelAvailabilityTest.result()[pri:2, instance:com.test.testScenario.HotelAvailabilityTest@4c39bec8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="screnShot()[pri:0, instance:com.test.testScenario.HotelAvailabilityTest@4c39bec8]" started-at="2025-07-04T16:38:00 IST" name="screnShot" finished-at="2025-07-04T16:38:00 IST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screnShot -->
+        <test-method is-config="true" signature="erase()[pri:0, instance:com.test.testScenario.HotelAvailabilityTest@4c39bec8]" started-at="2025-07-04T16:38:00 IST" name="erase" finished-at="2025-07-04T16:38:05 IST" duration-ms="4397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- erase -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.testScenario.HotelAvailabilityTest@4c39bec8]" started-at="2025-07-04T16:38:05 IST" name="tearDown" finished-at="2025-07-04T16:38:05 IST" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="writeDataIntoExcel()[pri:0, instance:com.test.testScenario.HotelAvailabilityTest@4c39bec8]" started-at="2025-07-04T16:38:05 IST" name="writeDataIntoExcel" finished-at="2025-07-04T16:38:05 IST" duration-ms="397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeDataIntoExcel -->
+      </class> <!-- com.test.testScenario.HotelAvailabilityTest -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
